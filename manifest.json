@@ -2,10 +2,10 @@
    "version": "1.0",
    "manifest_version": 2,
    "name": "Javascript Injector",
-   "permissions": ["http://*/*"],
+   "permissions": ["https://www.strava.com/activities/*"],
    "content_scripts": [
    {
-       "matches": ["http://*/*","https://*/*"],
+       "matches": ["https://www.strava.com/activities/*"],
        "js": [
            "inject.js"
        ]
